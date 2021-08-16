@@ -9,6 +9,11 @@ document.getElementById('login-submit').addEventListener('click', function () {
   if (userEmail == 'sontan@baap.com' && userPassword == 'sontan') {
     window.location.href = 'banking.html'
   }
+  else {
+    const errorMessage = document.getElementById("error-message")
+    errorMessage.style.display = "block"
+}
+
 
 })
 
