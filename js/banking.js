@@ -1,5 +1,5 @@
 const depositBtn = document.getElementById('deposit-button');
-const withdrawBtn = document.getElementById('withdrw-button');
+const withdrawBtn = document.getElementById('withdraw-button');
 
 depositBtn.addEventListener('click', function () {
   changeBalance("deposit")
